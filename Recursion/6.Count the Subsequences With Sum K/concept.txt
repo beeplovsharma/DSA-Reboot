@@ -1,0 +1,12 @@
+// Basic Structure for counting in Recursion
+
+// int fun(){
+//     // base case
+//     return 1; ----> if conditions Satisfied
+//     return 0; ----> if not
+
+//     left = f()
+//     right = f()
+
+//     return left + right;
+// }
