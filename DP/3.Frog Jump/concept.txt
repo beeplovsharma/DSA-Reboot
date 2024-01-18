@@ -1,0 +1,5 @@
+Ek Frog Ya To, Ek Ya Do Jumps maar skta hai ek baar me.
+
+initial se final poisiton tak kis tarah jumps maare ke uska energy kam se kam kharch ho
+
+Array me uska energy bhara hua hai.
