@@ -5,10 +5,10 @@ int main()
     int arr[] = {2, 1, 4, 9};
     int n = sizeof(arr) / sizeof(arr[0]);
     vector<int>dp(n+1,-1);
-    dp[0] = 0;
+    dp[0] = arr[0];
 
     for(int i=1;i<n;i++){
-        int pick = 0;
+        int pick = arr[i];
         if(i>=2)
             pick = arr[i] + dp[i-2];
         int notPick = dp[i-1];

@@ -1,3 +1,5 @@
+// Ek house chhor-chhor ke rob karna hai [ek se jyada bhi chhor skte hai], to kis tarah se robbing kiya jaaye ki Sabse Jyada Paisa Ho Apun Ke Paas !
+
 #include<bits/stdc++.h>
 using namespace std;
 int fun(int ind,int arr[])

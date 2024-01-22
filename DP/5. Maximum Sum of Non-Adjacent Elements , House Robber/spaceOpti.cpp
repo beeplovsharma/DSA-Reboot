@@ -9,6 +9,8 @@ int main()
     int prev2 = 0;
     int curr = 0;
 
+
+
     for (int i = 1; i < n; i++)
     {
         int pick = 0;
@@ -19,6 +21,6 @@ int main()
         prev2 = prev;
         prev = curr;
     }
-    cout << curr;
+    cout << prev;
     return 0;
 }
