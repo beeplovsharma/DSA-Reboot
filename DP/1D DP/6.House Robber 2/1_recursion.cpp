@@ -1,5 +1,8 @@
-// Array Circular hai to, ek saath first aur last element nahi le sakte, yadi liye to wo adjacent hojayega
+// TWIST : Array Circular hai to, ek saath first aur last element nahi le sakte, yadi liye to wo adjacent hojayega
 // Ek house chhor-chhor ke rob karna hai [ek se jyada bhi chhor skte hai], to kis tarah se robbing kiya jaaye ki Sabse Jyada Paisa Ho Apun Ke Paas !
+
+// Ques 5 me do array bhejo 1>. Jisme Last Element Gayab Ho, 2>. Jisme First Element Gayab Ho
+// Fir Unka Max Lelo
 
 #include <bits/stdc++.h>
 using namespace std;
