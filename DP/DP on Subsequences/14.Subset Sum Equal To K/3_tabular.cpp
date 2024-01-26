@@ -1,6 +1,6 @@
 // Saare Subsequences me kisi ek ka bhi sum "K" ke barabar aajaye to "True" return krdo
 // TC : O(N*K)
-// SC : O(N*K) + O(N) ~ (dp size stack + auxiliary stack)
+// SC : O(N*K) ~ (dp size stack)
 
 #include <bits/stdc++.h>
 using namespace std;
