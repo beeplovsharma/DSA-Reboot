@@ -1,0 +1,9 @@
+Ques : array me saare elemets ka sum = totSum
+    yadi array ko do bhaag me baata ja sake taki target ka value each array ke total sum se mil jaye to "TRUE" return karo.
+    where, target = totSum/2;
+
+Solution :-
+
+1> First Check if totSum --> odd , return false
+2> Second Check , pass target in prev ques ! 
+---> yadi totSum/2 mil gya to ye possible hai.

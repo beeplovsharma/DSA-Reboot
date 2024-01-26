@@ -1,16 +1,23 @@
 // Saare Subsequences me kisi ek ka bhi sum "K" ke barabar aajaye to "True" return krdo
 // TC : O(N*K)
-// SC : O(N*K) + O(N) ~ (dp size stack + auxiliary stack)
+// SC : O(N*K) ~ (dp size stack)
 
 #include <bits/stdc++.h>
 using namespace std;
-
 
 int main()
 {
     vector<int> arr = {4, 3, 2, 1};
     int n = arr.size();
-    int k = 4;
+    // int k = 4;
+
+    int totSum = 0;
+    for (int i = 0; i < n; i++)
+        totSum += arr[i];
+    if (totSum % 2 != 0)
+        return false;
+    int k = totSum / 2;
+
     vector<vector<bool>> dp(n, vector<bool>(k + 1, 0));
 
     for (int i = 0; i < n; i++)
@@ -31,6 +38,6 @@ int main()
             dp[i][target] = (take | notTake);
         }
     }
-    cout<<dp[n - 1][k];
+    cout << dp[n - 1][k];
     return 0;
 }
