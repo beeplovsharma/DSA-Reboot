@@ -17,7 +17,7 @@ int main()
     {
         dp[i][0] = true;
     }
-    dp[0][arr[0]] = true;
+    if(arr[0]<=k) dp[0][arr[0]] = true; // arr[0] must be equal to or less than target itself, only then it is true.
 
     for (int i = 1; i < n; i++)
     {

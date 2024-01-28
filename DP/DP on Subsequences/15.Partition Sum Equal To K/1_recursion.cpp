@@ -25,6 +25,10 @@ int main()
     int n = arr.size();
     // int k = 4;
 
+    // Sabse pehle check karlo ki yadi, totSum even hai yadi nahi hai to false
+    // yadi hai to iska matlab do bhaag me baata ja skta hai
+    // target = totSum/2, yadi target mil gya to answer true h 
+
     int totSum = 0;
     for(int i=0;i<n;i++) totSum+=arr[i];
     if(totSum%2!=0) return false;
