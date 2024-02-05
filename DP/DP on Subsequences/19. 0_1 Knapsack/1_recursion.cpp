@@ -11,7 +11,7 @@ int fun(vector<int> wt, vector<int> val, int ind, int W)
     {
         if (W >= wt[0])
             return val[0];
-        return 0;
+        return INT_MIN;
     }
 
     int notPick = fun(wt, val, ind - 1, W);
